@@ -156,9 +156,8 @@ class PotatoOrNotHandler{
 				}
 			}
 		}
-
+		Hooks.call("PotatoOrNotQualityChanged", this.quality);
 		window.location.reload();
-
 	}
 
 	/**
